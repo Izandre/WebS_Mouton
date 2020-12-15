@@ -16,7 +16,7 @@ def scheduledTask():
       Checkers.ScrapeFunction() 
 
 if __name__ == "__main__":
-    scheduler.add_job(id='Scheduled task', func =scheduledTask, trigger = 'interval', seconds =10)
+    scheduler.add_job(id='Scheduled task', func =scheduledTask, trigger = 'interval', minutes=360)
     scheduler.start()
     app.run(host = '0.0.0.0', port =8080)
     
