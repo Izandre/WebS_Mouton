@@ -1,4 +1,4 @@
-import schedule
+
 import Checkers
 import AlbertHein
 from flask import Flask
