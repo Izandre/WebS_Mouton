@@ -5,11 +5,13 @@ import pyodbc
 
 
 
+
 server = 'mouton.database.windows.net'
 database = 'SQL_Produksie'
 username = 'OptimusPrime'
 password = 'OPMEGATRON123!'   
 driver= '{ODBC Driver 17 for SQL Server}'
+
 
 def ScrapeFunction():
     r = requests.get('https://www.checkers.co.za/c-2420/All-Departments/Food/Fresh-Food/Fresh-Fruit/Oranges%2C-Lemons-and-Citrus-Fruit')

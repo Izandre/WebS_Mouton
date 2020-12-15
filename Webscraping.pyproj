@@ -25,7 +25,6 @@
   <ItemGroup>
     <Compile Include="Checkers.py" />
     <Compile Include="AlbertHein.py" />
-    <Compile Include="Schedule.py" />
     <Compile Include="app.py" />
   </ItemGroup>
   <ItemGroup>

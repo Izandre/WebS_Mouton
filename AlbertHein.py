@@ -5,11 +5,13 @@ from datetime import datetime
 import pyodbc
 
 
+
 server = 'mouton.database.windows.net'
 database = 'SQL_Produksie'
 username = 'OptimusPrime'
 password = 'OPMEGATRON123!'   
 driver= '{ODBC Driver 17 for SQL Server}'
+
 
 
 def ScrapeFunction():
